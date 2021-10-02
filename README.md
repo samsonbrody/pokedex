@@ -2,7 +2,7 @@
 Check out the live version on GH Pages!
 
 This is a simple 4 component React App which takes an array of Pokemon , divides them in two teams, and has them battle based on experience!
-The method behind this was to render a "Pokegame" component in the "<App />" level. The Pokegame is the one containing the most state, this is where I stored the total EXP points,
+The method behind this was to render a "Pokegame" component in the "<App>" level. The Pokegame is the one containing the most state, this is where I stored the total EXP points,
 calculated with a reducer function for each "pokehand," where the total exp is added up and then later displayed.
 
 The <Pokegame /> component passes down a couple of props to the </Pokedex /> component below, including isBattling(whether or not the cards in the deck were still "shuffling"), pokemon(the prop that was passed as each of the pokemon in that specific hand),totalExp,
